@@ -1,0 +1,90 @@
+body {
+  margin: 0; /* Tricky: override browser default */
+  padding: 80px;
+
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  border: 1px grey solid;
+  background: grey;
+}
+
+.logo {
+  position: absolute;
+  left: 10px;
+  list-style: none;
+}
+
+.post {
+  position: absolute;
+  right: 100px;
+  list-style: none;
+}
+
+.account {
+  position: absolute;
+  right: 20px;
+  list-style: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.search-section input {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 30px;
+  height: 30px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+  padding: 0 5px 0 8px;
+  width: 400px;
+}
+
+.search-section button {
+  font-size: 17px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
+
+ul {
+  list-style: none;
+}
+
+.positionarea {
+  display: inline-block;
+  padding: 5px;
+}
+
+.previous {
+  width: 40 px;
+  display: inline-block;
+  border: 1px solid grey;
+}
+
+.middle {
+width: 150px;
+display: inline-block;
+border: 1px solid grey;
+}
+
+.next {
+width: 40px;
+display: inline-block;
+border: 1px solid grey;
+}
+
+span {
+  color: blue;
+}
